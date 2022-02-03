@@ -1,0 +1,8 @@
+name: Ttask
+type: module
+description: 'Test Task for 101Ants'
+package: 'ttask'
+dependencies:
+  - drupal:node
+  - drupal:views
+core_version_requirement: ^9

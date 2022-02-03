@@ -9,7 +9,7 @@ box/local.config.yml
 local.blt.yml
 docker-compose.override.yml
 docroot/sites/*/settings.php
-docroot/sites/*/settings.local.php
+
 
 # Ignore drupal core.
 docroot/core
@@ -142,7 +142,6 @@ drush/sites/.checksums
 
 # Docker Sync
 .docker-sync
-.env
 /.editorconfig
 /.gitattributes
 /docroot/modules/custom/pa_debug/
@@ -152,3 +151,15 @@ drush/sites/.checksums
 # except browserstack env
 !browserstack/.env
 .phpcs-cache
+/.csslintrc
+/.eslintignore
+/.eslintrc.json
+/.ht.router.php
+/.htaccess
+/INSTALL.txt
+/autoload.php
+/example.gitignore
+/index.php
+/robots.txt
+/update.php
+/web.config

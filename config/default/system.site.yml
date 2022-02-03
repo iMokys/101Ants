@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: 7abd8bbd-3f3b-434b-a567-4935cc812eed
+name: 101Ants
+mail: no-reply@ttest.docker.localhost
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/51
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

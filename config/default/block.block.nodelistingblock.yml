@@ -1,0 +1,28 @@
+uuid: c0bd5527-ab70-4488-95ac-512055c15acd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ttask
+  theme:
+    - claro
+id: nodelistingblock
+theme: claro
+region: content
+weight: -2
+provider: null
+plugin: ttask_node_listing
+settings:
+  id: ttask_node_listing
+  label: 'Node Listing Block'
+  label_display: '0'
+  provider: ttask
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      homepage: homepage
