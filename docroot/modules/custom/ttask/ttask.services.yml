@@ -1,0 +1,5 @@
+services:
+  ttask.service:
+    class: Drupal\ttask\Service\TtaskService
+    arguments:
+      [ '@current_route_match', '@current_user', '@entity_type.manager' ]
