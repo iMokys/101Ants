@@ -3,3 +3,12 @@ services:
     class: Drupal\ttask\Service\TtaskService
     arguments:
       [ '@current_route_match', '@current_user', '@entity_type.manager' ]
+
+  ttask.route_subscriber:
+    class: Drupal\ttask\EventSubscriber\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  ttask.user_route_access:
+    class: Drupal\ttask\Access\UserAccessCheck
+    arguments: [ '@entity_type.manager' ]

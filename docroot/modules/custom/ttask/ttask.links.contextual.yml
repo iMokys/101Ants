@@ -1,0 +1,10 @@
+entity.ttask.edit_form:
+  route_name: entity.ttask.edit_form
+  group: ttask
+  title: Edit
+
+entity.ttask.delete_form:
+  route_name: entity.ttask.delete_form
+  group: ttask
+  title: Delete
+  weight: 10

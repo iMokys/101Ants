@@ -1,0 +1,5 @@
+ttask.add_form:
+  title: 'Add ttask'
+  route_name: entity.ttask.add_form
+  appears_on:
+    - entity.ttask.collection

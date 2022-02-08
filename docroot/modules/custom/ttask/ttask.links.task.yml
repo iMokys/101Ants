@@ -1,0 +1,23 @@
+entity.ttask.view:
+  title: 'View'
+  route_name: entity.ttask.canonical
+  base_route: entity.ttask.canonical
+entity.ttask.edit_form:
+  title: 'Edit'
+  route_name: entity.ttask.edit_form
+  base_route: entity.ttask.canonical
+entity.ttask.delete_form:
+  title: 'Delete'
+  route_name: entity.ttask.delete_form
+  base_route: entity.ttask.canonical
+  weight: 10
+entity.ttask.collection:
+  title: 'Ttasks'
+  route_name: entity.ttask.collection
+  base_route: system.admin_content
+  weight: 10
+view.ttask_entity.page:
+  title: 'Ttask Views Page'
+  route_name: view.ttask_entity.page
+  base_route: system.admin_content
+  weight: 11

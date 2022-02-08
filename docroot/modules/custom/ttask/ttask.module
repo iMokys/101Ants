@@ -5,7 +5,14 @@
  * Hooks for ttask.
  */
 
-use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
-use Drupal\Core\Entity\EntityInterface;
+use Drupal\ttask\Entity\NodeExtra;
 
-
+/**
+ * Implements hook_entity_type_build().
+ */
+function ttask_entity_type_build(array &$entity_types) {
+  /** @var \Drupal\Core\Entity\EntityTypeInterface[] $entity_types */
+  if (isset($entity_types['node'])) {
+    $entity_types['node']->setClass(NodeExtra::class);
+  }
+}

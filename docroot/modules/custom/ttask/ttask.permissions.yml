@@ -1,0 +1,11 @@
+administer ttask:
+  title: 'Administer ttask settings'
+  restrict access: true
+delete ttask:
+  title: Delete ttask
+create ttask:
+  title: Create ttask
+view ttask:
+  title: View ttask
+edit ttask:
+  title: Edit ttask
