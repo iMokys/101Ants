@@ -11,7 +11,7 @@ This project is based on BLT, an open-source project template and tool that enab
 
 ```bash
 # First time setup
-git https://github.com/iMokys/101Ants.git
+git clone https://github.com/iMokys/101Ants.git
 
 docker-compose up -d --build
 
@@ -20,5 +20,5 @@ make shell
 composer install
 
 # Import database from dump.
-drush sql-cli < dump-file-name.sql
+drush sql-cli < dump.sql
 ```

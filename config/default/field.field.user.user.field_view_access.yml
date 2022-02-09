@@ -1,0 +1,23 @@
+uuid: b4733ca4-296e-45f1-ac23-4646cca3ae53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_view_access
+  module:
+    - options
+    - user
+id: user.user.field_view_access
+field_name: field_view_access
+entity_type: user
+bundle: user
+label: 'View Access'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: no_restriction
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 58f4a74c-a5fd-40ae-ab85-4cb17e6312e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_view_access
+  module:
+    - options
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_view_access:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  member_for:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

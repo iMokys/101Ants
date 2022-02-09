@@ -1,0 +1,27 @@
+uuid: 1ba2a145-016c-4ee5-86a5-ca235c817788
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_view_access
+field_name: field_view_access
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: no_restriction
+      label: 'No restriction'
+    -
+      value: keep_private
+      label: 'Keep private'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
